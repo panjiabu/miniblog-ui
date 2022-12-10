@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Blog</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="static/js/jquery-3.6.0.js"></script>
+
+    <!-- BoxIcon -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Logo Title -->
+    <link rel="shortcut icon" href="static/img/logo-title.svg" type="image/png" />
+</head>
+
+<body>
+    <section id="blog">
+        <!-- Navigation -->
+        <div class="navigation">
+            <!-- Logo -->   
+            <a href="index.html" class="logo">
+                <i class='bx bxl-blogger'></i> LOG
+            </a>
+
+            <!-- Post Filter -->
+            <nav>
+                <!-- Menu Icon -->
+                <input type="checkbox" class="menu-btn" id="menu-btn">
+                <label for="menu-btn" class="menu-icon">
+                    <span class="nav-icon"></span>
+                </label>
+
+                <!-- Filter -->
+                <ul class="blog-filter">
+                    <li class="list blog-filter-active" data-filter="all">All</li>
+                    <li class="list" data-filter="web">Website</li>
+                    <li class="list" data-filter="app">Application</li>
+                    <li class="list" data-filter="news">News</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- AD -->
+        <div class="ad">
+            <a href="#">
+                <img src="static/img/ad-home.png" alt="ads">
+            </a>
+        </div>
+
+        <!-- Container -->
+        <div class="blog-container">
+            <!-- Box 1 -->
+            <div class="blog-box app">
+                <!-- Image -->
+                <div class="blog-img">
+                    <img src="static/img/b-1.jpg" alt="img">
+                    <span class="category">App</span>
+                </div>
+
+                <!-- Text -->
+                <div class="blog-text">
+                    <!-- Title -->
+                    <a href="p/how-to-create-time-app.html">
+                        <strong>How to Create Time App</strong>
+                    </a>
+
+                    <!-- Time and Category -->
+                    <div class="category-time">
+                        <span class="blog-category">App</span>
+                        <span class="published-time">11-03-2021</span>
+                    </div>
+
+                    <!-- Publisher Profile -->
+                    <div class="publisher-profile">
+                        <img src="static/img/p-1.png" alt="publisher">
+                        <span>Touseeq Ijaz</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="blog-box web">
+                <!-- Image -->
+                <div class="blog-img">
+                    <img src="static/img/b-2.jpg" alt="img">
+                    <span class="category">Web</span>
+                </div>
+
+                <!-- Text -->
+                <div class="blog-text">
+                    <!-- Title -->
+                    <a href="p/how-to-create-weather-web.html">
+                        <strong>How to Create Weather Web</strong>
+                    </a>
+
+                    <!-- Time and Category -->
+                    <div class="category-time">
+                        <span class="blog-category">Web</span>
+                        <span class="published-time">11-02-2021</span>
+                    </div>
+
+                    <!-- Publisher Profile -->
+                    <div class="publisher-profile">
+                        <img src="static/img/p-1.png" alt="publisher">
+                        <span>Touseeq Ijaz</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="blog-box app">
+                <!-- Image -->
+                <div class="blog-img">
+                    <img src="static/img/b-3.jpg" alt="img">
+                    <span class="category">App</span>
+                </div>
+
+                <!-- Text -->
+                <div class="blog-text">
+                    <!-- Title -->
+                    <a href="p/how-to-create-water-drink-app.html">
+                        <strong>How to Create Water Drink App</strong>
+                    </a>
+
+                    <!-- Time and Category -->
+                    <div class="category-time">
+                        <span class="blog-category">App</span>
+                        <span class="published-time">11-01-2021</span>
+                    </div>
+
+                    <!-- Publisher Profile -->
+                    <div class="publisher-profile">
+                        <img src="static/img/p-2.png" alt="publisher">
+                        <span>Angelica Rodrigez</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="blog-box news">
+                <!-- Image -->
+                <div class="blog-img">
+                    <img src="static/img/b-4.jpg" alt="img">
+                    <span class="category">News</span>
+                </div>
+
+                <!-- Text -->
+                <div class="blog-text">
+                    <!-- Title -->
+                    <a href="p/bike-riders.html">
+                        <strong>Bike Riders</strong>
+                    </a>
+
+                    <!-- Time and Category -->
+                    <div class="category-time">
+                        <span class="blog-category">News</span>
+                        <span class="published-time">11-12-2020</span>
+                    </div>
+
+                    <!-- Publisher Profile -->
+                    <div class="publisher-profile">
+                        <img src="static/img/p-3.png" alt="publisher">
+                        <span>Ellizabeth Christopher</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 5 -->
+            <div class="blog-box news">
+                <!-- Image -->
+                <div class="blog-img">
+                    <img src="static/img/b-5.jpg" alt="img">
+                    <span class="category">News</span>
+                </div>
+
+                <!-- Text -->
+                <div class="blog-text">
+                    <!-- Title -->
+                    <a href="p/planning-of-the-year.html">
+                        <strong>Planning of The Year</strong>
+                    </a>
+
+                    <!-- Time and Category -->
+                    <div class="category-time">
+                        <span class="blog-category">News</span>
+                        <span class="published-time">11-11-2020</span>
+                    </div>
+
+                    <!-- Publisher Profile -->
+                    <div class="publisher-profile">
+                        <img src="static/img/p-3.png" alt="publisher">
+                        <span>Ellizabeth Christopher</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 6 -->
+            <div class="blog-box news">
+                <!-- Image -->
+                <div class="blog-img">
+                    <img src="static/img/b-6.jpg" alt="img">
+                    <span class="category">News</span>
+                </div>
+
+                <!-- Text -->
+                <div class="blog-text">
+                    <!-- Title -->
+                    <a href="p/self-motivation.html">
+                        <strong>Self Motivation</strong>
+                    </a>
+
+                    <!-- Time and Category -->
+                    <div class="category-time">
+                        <span class="blog-category">News</span>
+                        <span class="published-time">11-10-2020</span>
+                    </div>
+
+                    <!-- Publisher Profile -->
+                    <div class="publisher-profile">
+                        <img src="static/img/p-3.png" alt="publisher">
+                        <span>Ellizabeth Christopher</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 7 -->
+            <div class="blog-box app">
+                <!-- Image -->
+                <div class="blog-img">
+                    <img src="static/img/b-7.jpg" alt="img">
+                    <span class="category">App</span>
+                </div>
+
+                <!-- Text -->
+                <div class="blog-text">
+                    <!-- Title -->
+                    <a href="p/how-to-create-work-project-app.html">
+                        <strong>How to Create Work Project App</strong>
+                    </a>
+
+                    <!-- Time and Category -->
+                    <div class="category-time">
+                        <span class="blog-category">App</span>
+                        <span class="published-time">11-09-2020</span>
+                    </div>
+
+                    <!-- Publisher Profile -->
+                    <div class="publisher-profile">
+                        <img src="static/img/p-2.png" alt="publisher">
+                        <span>Angelica Rodrigez</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 8 -->
+            <div class="blog-box news">
+                <!-- Image -->
+                <div class="blog-img">
+                    <img src="static/img/b-8.jpg" alt="img">
+                    <span class="category">News</span>
+                </div>
+
+                <!-- Text -->
+                <div class="blog-text">
+                    <!-- Title -->
+                    <a href="p/business-management.html">
+                        <strong>Business Management</strong>
+                    </a>
+
+                    <!-- Time and Category -->
+                    <div class="category-time">
+                        <span class="blog-category">News</span>
+                        <span class="published-time">11-08-2020</span>
+                    </div>
+
+                    <!-- Publisher Profile -->
+                    <div class="publisher-profile">
+                        <img src="static/img/p-3.png" alt="publisher">
+                        <span>Ellizabeth Christopher</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 9 -->
+            <div class="blog-box app">
+                <!-- Image -->
+                <div class="blog-img">
+                    <img src="static/img/b-1.jpg" alt="img">
+                    <span class="category">App</span>
+                </div>
+
+                <!-- Text -->
+                <div class="blog-text">
+                    <!-- Title -->
+                    <a href="p/how-to-create-timer-app.html">
+                        <strong>How to Create Timer App</strong>
+                    </a>
+
+                    <!-- Time and Category -->
+                    <div class="category-time">
+                        <span class="blog-category">App Design</span>
+                        <span class="published-time">11-07-2020</span>
+                    </div>
+
+                    <!-- Publisher Profile -->
+                    <div class="publisher-profile">
+                        <img src="static/img/p-1.png" alt="publisher">
+                        <span>Touseeq Ijaz</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ad -->
+        <div class="ad">
+            <a href="#">
+                <img src="static/img/ad-home.png" alt="ads">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <span class="copyright">&copy; 2021 - Furonix Media</span>
+        
+        <!-- Social Links -->
+        <div class="footer-social">
+            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="static/js/script.js"></script>
+</body>
+
+</html>
